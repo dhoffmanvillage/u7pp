@@ -8,7 +8,18 @@ You may use the `Main` class for testing purposes, but all of your code for the 
 
 You may create as many helper classes and methods as you deem necessary, but you must include the methods described below, and make use of the `Deck` and `Card` classes provided (unaltered) in order to recieve full credit.
 
-## Part A - `War.java`
+## Part A - `Sorts.java`
+
+In class, we discussed the algorithms behind two different types of sorts: **selection sort** and **insertion sort**. Create a static class `Sorts` that has the following static methods:
+
+    int[] selectionSort(int[] x): Returns the array x sorted in ascending order using a selection sort
+    int[] insertionSort(int[] x): Returns the array x sorted in ascending order using an insertion sort
+    ArrayList<Integer> selectionSort(ArrayList<Integer> x): Returns the ArrayList x sorted in descending order using a selection sort
+    ArrayList<Integer> insertionSort(ArrayList<Integer> x): Returns the ArrayList x sorted in descending order using an insertion sort
+
+Because all the methods in this class are static, remember to not have any instance variables or constructors. Do not modify the parameters in any way.
+
+## Part B - `War.java`
 
 Create a class called `War` that plays the game `War`. The rules of `War` are as follows:
 
@@ -31,17 +42,6 @@ The following lines of code ran from another class (like `Main.java`) must start
 
     War game = new War();
     game.play();
-
-## Part B - `Sorts.java`
-
-In class, we discussed the algorithms behind two different types of sorts: **selection sort** and **insertion sort**. Create a static class `Sorts` that has the following static methods:
-
-    int[] selectionSort(int[] x): Returns the array x sorted in ascending order using a selection sort
-    int[] insertionSort(int[] x): Returns the array x sorted in ascending order using an insertion sort
-    ArrayList<Integer> selectionSort(ArrayList<Integer> x): Returns the ArrayList x sorted in descending order using a selection sort
-    ArrayList<Integer> insertionSort(ArrayList<Integer> x): Returns the ArrayList x sorted in descending order using an insertion sort
-
-Because all the methods in this class are static, remember to not have any instance variables or constructors. Do not modify the parameters in any way.
 
 ## GRADING BREAKDOWN
 
