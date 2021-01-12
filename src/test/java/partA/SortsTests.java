@@ -1,10 +1,11 @@
 package partA;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -13,7 +14,7 @@ public class SortsTests {
     private int[] array = {2, 4, 1, -1, 0, 9, -80, 3};
     private List<Integer> list;
 
-    @Before
+    @BeforeEach
     public void setup() {
         list = new ArrayList<Integer>();
         list.add(2);

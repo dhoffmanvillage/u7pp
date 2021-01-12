@@ -1,9 +1,11 @@
 package partB;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertEquals;
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
+
 import java.util.ArrayList;
 import static org.mockito.Mockito.*;
 
@@ -16,7 +18,7 @@ public class DeckTests {
     private static final int DECK_SIZE = Card.SUITS.length * Card.VALUES.length;
 
     
-    @Before
+    @BeforeEach
     public void setup()
     {
         deck = new Deck();

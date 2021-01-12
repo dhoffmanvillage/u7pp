@@ -1,11 +1,11 @@
 package partB;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 
 /**
  * Unit tests for Card
@@ -14,7 +14,7 @@ public class CardTests
 {
     private Card card, compareCardSuit, compareCardValue, compareCardEqual;
 
-    @Before
+    @BeforeEach
     public void setup() {
         card = new Card(Card.VALUES[0], Card.SUITS[0]);
         compareCardEqual = new Card(Card.VALUES[0], Card.SUITS[0]);
