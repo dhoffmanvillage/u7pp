@@ -8,8 +8,6 @@ import org.junit.Test;
 import java.util.List;
 import java.util.ArrayList;
 
-import partA.Sorts;
-
 public class SortsTests {
 
     private int[] array = {2, 4, 1, -1, 0, 9, -80, 3};
