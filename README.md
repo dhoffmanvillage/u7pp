@@ -1,6 +1,10 @@
 # Unit 7 Programming Project
 
+<<<<<<< HEAD
 In this project, you are going to work with arrays, `List`s and `ArrayList`s. You are also going to work on class creation and interaction.
+=======
+In this project, you are going to work with arrays, `Lists` and `ArrayLists`. You are also going to work on class creation and interaction.
+>>>>>>> 6353ed5e0deb3a21176913c583c0b1b1c0bca3e4
 
 You should have no code in the `Main` class toward solutions to this project.
 
@@ -14,8 +18,13 @@ In class, we discussed the algorithms behind two different types of sorts: **sel
 
     int[] selectionSort(int[] x): Returns the array x sorted in ascending order using a selection sort
     int[] insertionSort(int[] x): Returns the array x sorted in ascending order using an insertion sort
+<<<<<<< HEAD
     List<Integer> selectionSort(List<Integer> x): Returns the ArrayList x sorted in descending order using a selection sort
     List<Integer> insertionSort(List<Integer> x): Returns the ArrayList x sorted in descending order using an insertion sort
+=======
+    List<Integer> selectionSort(List<Integer> x): Returns the List x sorted in descending order using a selection sort
+    List<Integer> insertionSort(List<Integer> x): Returns the List x sorted in descending order using an insertion sort
+>>>>>>> 6353ed5e0deb3a21176913c583c0b1b1c0bca3e4
 
 Because all the methods in this class are static, remember to not have any instance variables or constructors. Do not modify the parameters in any way.
 
